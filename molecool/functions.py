@@ -31,11 +31,6 @@ def canvas(with_attribution=True):
         quote += "\n\t- Adapted from Henry David Thoreau"
     return quote
 
-
-def new_function():
-    """ New change to test travis"""
-    a1 =  5
-
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
