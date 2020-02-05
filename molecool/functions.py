@@ -32,6 +32,10 @@ def canvas(with_attribution=True):
     return quote
 
 
+def new_function():
+    """ New change to test travis"""
+    a1 =  5
+
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
